@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background: #f7f6f2;
+}
+.titlehead{
+    text-align: center;
+    margin-top: 8px;
+    color: #4B6587;
+    font-size: 2.5rem;
+}
+.todobody {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 500px;
+  width: 500px;
+  background-color: #f0e5cf;
+}
+.todoform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addbtn,.editbtn {
+  background-color: #4b6587;
+  height: 2rem;
+  width: 3rem;
+  margin-top: 2rem;
+  color: white;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 0;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  margin-top: 2rem;
+}
+
+.listtodo{
+   text-align: center;
+    width: 90px;
+    background-color:#4B6587;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    color: white;
+}
+
+.crosstext{
+  text-decoration: line-through;
+}
